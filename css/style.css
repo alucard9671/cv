@@ -1,5 +1,5 @@
 body {
-  background-color: #EAF6F6;
+  background-color: #000000;
 }
 
 hr {
@@ -10,8 +10,52 @@ hr {
 }
 
 h1{
-  color: #66BFBF;
+  color: #39FF14;
 }
 h3{
-  color: #66BFBF;
+  color: #67dd76;
+}
+
+p{
+  color: rgb(209, 244, 226);
+}
+.ent{
+  color: #cefdd4;
+}
+
+.btn {
+  -webkit-border-radius: 13;
+  -moz-border-radius: 13;
+  border-radius: 13px;
+  font-family: Georgia;
+  color: #000000;
+  font-size: 20px;
+  background: #67dd76;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #115d04;
+  text-decoration: none;
+}
+
+a:link, a:visited{
+  color: rgb(243, 239, 159);
+  text-decoration: none;
+  cursor:auto;
+}
+
+a:link:active, a:visited:active {
+  color: (internal value);
+}
+
+th{
+  color: #39ff14;
+}
+td{
+  color: azure;
+}
+li{
+  color: #67dd76;
 }
